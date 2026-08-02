@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Case Study: Running Avokara on 11 n8n Workflows</title>
+<meta name="description" content="Internal case study with real numbers: how Avokara automated lead handling, approvals, invoicing, and LinkedIn content with 11 n8n workflows and AI agents.">
+<link rel="canonical" href="https://www.avokaraai.com/case-studies/avokara-internal-automation/">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Avokara">
+<meta property="og:title" content="Case Study: Running Avokara on 11 n8n Workflows">
+<meta property="og:description" content="Internal case study with real numbers: how Avokara automated lead handling, approvals, invoicing, and LinkedIn content with 11 n8n workflows and AI agents.">
+<meta property="og:url" content="https://www.avokaraai.com/case-studies/avokara-internal-automation/">
+<meta property="og:image" content="https://www.avokaraai.com/assets/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Case Study: Running Avokara on 11 n8n Workflows">
+<meta name="twitter:description" content="Internal case study with real numbers: how Avokara automated lead handling, approvals, invoicing, and LinkedIn content with 11 n8n workflows and AI agents.">
+<meta name="twitter:image" content="https://www.avokaraai.com/assets/og-image.png">
+<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&family=Inter:wght@400;500;600&display=swap" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&family=Inter:wght@400;500;600&display=swap"></noscript>
+<link rel="stylesheet" href="/assets/styles.css">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Organization", "@id": "https://www.avokaraai.com/#organization", "name": "Avokara Private Limited", "alternateName": "Avokara", "url": "https://www.avokaraai.com/", "logo": "https://www.avokaraai.com/assets/og-image.png", "email": "hello@avokaraai.com", "founder": {"@type": "Person", "name": "Nitin Singh"}, "description": "AI business-automation agency building AI agents and n8n workflow automation for small and mid-sized businesses.", "areaServed": "IN", "address": {"@type": "PostalAddress", "addressCountry": "IN"}, "sameAs": []}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebPage", "url": "https://www.avokaraai.com/case-studies/avokara-internal-automation/", "name": "Case Study: Avokara Internal Automation", "description": "Internal automation case study.", "isPartOf": {"@id": "https://www.avokaraai.com/#website"}, "dateModified": "2026-08-02", "inLanguage": "en"}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Running Avokara on 11 n8n Workflows: An Internal Case Study", "author": {"@type": "Person", "name": "Nitin Singh"}, "publisher": {"@id": "https://www.avokaraai.com/#organization"}, "datePublished": "2026-08-02", "dateModified": "2026-08-02", "url": "https://www.avokaraai.com/case-studies/avokara-internal-automation/", "description": "How Avokara automated its own operations with 11 n8n workflows: architecture, approval gates, costs, and lessons."}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.avokaraai.com/"}, {"@type": "ListItem", "position": 2, "name": "Case Studies", "item": "https://www.avokaraai.com/case-studies/"}, {"@type": "ListItem", "position": 3, "name": "Avokara Internal Automation", "item": "https://www.avokaraai.com/case-studies/avokara-internal-automation/"}]}</script>
+</head>
+<body>
+<header class="site-header">
+<div class="container nav-wrap">
+<a class="brand" href="/" aria-label="Avokara home"><svg class="logo" width="128" height="28" viewBox="0 0 128 28" role="img" aria-label="Avokara logo"><text x="0" y="21" font-family="Poppins,Arial,sans-serif" font-weight="800" font-size="21" fill="#101828">Avokara</text><circle cx="97" cy="20" r="3.2" fill="#E5352E"/></svg></a>
+<input type="checkbox" id="nav-toggle" class="nav-toggle" aria-hidden="true">
+<label for="nav-toggle" class="nav-btn" aria-label="Open menu"><span></span><span></span><span></span></label>
+<nav aria-label="Main navigation"><ul class="nav-list"><li><a href="/services/">Services</a></li><li><a href="/industries/">Industries</a></li><li><a href="/case-studies/" aria-current="page">Case Studies</a></li><li><a href="/pricing/">Pricing</a></li><li><a href="/blog/">Blog</a></li><li><a href="/faq/">FAQ</a></li><li><a href="/about/">About</a></li><li><a class="btn btn-primary nav-cta" href="/contact/">Book a Free Call</a></li></ul></nav>
+</div>
+</header>
+<main id='main'>
+<div class="container"><nav class="breadcrumbs" aria-label="Breadcrumb"><ol><li><a href="/">Home</a></li><li><a href="/case-studies/">Case Studies</a></li><li aria-current="page">Avokara Internal Automation</li></ol></nav></div>
+<section class="section"><div class="container narrow prose">
+<span class="eyebrow">Case Study · Internal Build</span>
+<h1>Running Avokara on 11 n8n workflows</h1>
+<p class="muted">By Nitin Singh · Published 2 August 2026 · Every claim on this page is from our own production system.</p>
+<div class="answer"><p><strong>Summary:</strong> Before offering automation to clients, we automated Avokara itself: 11 production n8n workflows now handle our lead pipeline, sales follow-ups, support triage, invoice reminders, HR screening, daily operations digest, and a LinkedIn content pipeline with AI-generated branded graphics. Total infrastructure cost: a self-hosted n8n instance (server-cost only) plus roughly ₹500–₹1,500/month in AI API usage. Build time: about two weeks of focused work, including the mistakes documented below.</p></div>
+
+<h2>The problem</h2>
+<p>A new agency has the same operational needs as an established one — leads must be answered, invoices chased, content published, operations watched — but no staff to do it. The founder's time was going into repetitive coordination instead of client work. We decided the company's own operations would be the first client project, built to the same standard we'd sell.</p>
+
+<h2>The solution: architecture</h2>
+<p>The system is 11 n8n workflows on a self-hosted Docker instance, organised around three shared services and eight function agents:</p>
+<div class="table-wrap"><table>
+<thead><tr><th scope="col">Workflow</th><th scope="col">What it does</th><th scope="col">Human gate?</th></tr></thead>
+<tbody>
+<tr><td>Error handler</td><td>Catches any workflow failure, emails an alert with details</td><td>—</td></tr>
+<tr><td>Approval gate</td><td>Shared sub-workflow: emails a draft with approve/reject buttons, waits up to 48h</td><td>Is the gate</td></tr>
+<tr><td>Daily digest</td><td>One 9 AM email: new leads, stuck items, overdue invoices, ops notes</td><td>Read-only</td></tr>
+<tr><td>Lead generation agent</td><td>Captures and enriches enquiries into the pipeline</td><td>—</td></tr>
+<tr><td>Sales agent</td><td>Qualifies leads, drafts personalised follow-ups, tracks proposals, writes status back</td><td>Yes — every send</td></tr>
+<tr><td>Marketing agent</td><td>Drafts weekly social posts and newsletter as one approval batch</td><td>Yes</td></tr>
+<tr><td>Support agent</td><td>Triage + drafted replies for incoming support email</td><td>Yes</td></tr>
+<tr><td>Finance agent</td><td>Invoice reminders at 7/15/30 days overdue, escalating tone</td><td>Yes — every reminder</td></tr>
+<tr><td>HR agent</td><td>Screens applications against role criteria, drafts responses</td><td>Yes</td></tr>
+<tr><td>Operations agent</td><td>8:30 AM sweep: flags stuck leads, old tickets, stale approvals into the digest</td><td>Read-only</td></tr>
+<tr><td>LinkedIn trend agent</td><td>Mon/Wed/Fri: reads AI-industry news feeds, writes a founder-voice post, generates a branded graphic (logo and URL stamped programmatically, not by AI), emails a ready-to-post package</td><td>Yes — founder posts manually</td></tr>
+</tbody></table></div>
+
+<h2>Implementation details that mattered</h2>
+<ul>
+<li><strong>Write-backs prevent repeats.</strong> Early versions could email the same lead twice because status lived only in the workflow's head. Every action now writes state back to the pipeline sheet before anything sends.</li>
+<li><strong>The approval gate is a shared sub-workflow,</strong> not copy-pasted logic — one place to fix, consistent behaviour everywhere.</li>
+<li><strong>Brand elements are stamped, not generated.</strong> AI image models misspell text unpredictably; our logo and domain are composited onto each generated graphic programmatically, so brand text is pixel-perfect every time.</li>
+<li><strong>Everything logs to one activity sheet,</strong> which is what makes the daily digest and stuck-item detection possible.</li>
+</ul>
+
+<h2>What went wrong (and the fixes)</h2>
+<ul>
+<li>Email approvals initially returned the wrong data downstream, losing the approval decision — fixed by restructuring the gate's return path.</li>
+<li>A merge step produced a cartesian join that multiplied digest rows — fixed by switching merge strategy and classifying rows by field shape.</li>
+<li>AI-generated images looked generic until we split art direction (varies per post) from brand frame (fixed), and moved brand text out of the AI's hands entirely.</li>
+<li>Platform email formatting collapsed line breaks in one client-facing template — caught in testing, fixed by switching to explicit HTML email bodies.</li>
+</ul>
+
+<h2>Measurable results</h2>
+<ul>
+<li><strong>11 workflows in production</strong>, covering seven business functions, built in roughly two weeks.</li>
+<li><strong>Running cost:</strong> self-hosted n8n (server cost only) + AI usage currently in the ₹500–₹1,500/month range at our volume, dominated by image generation (about ₹22 per high-quality branded graphic at current OpenAI pricing).</li>
+<li><strong>Daily routine:</strong> operations oversight is one digest email and a handful of one-click approvals — minutes, not hours.</li>
+<li><strong>Zero unattended customer-facing sends:</strong> every outbound email and post passes a human gate, by design.</li>
+</ul>
+
+<h2>What we'd tell a client from this build</h2>
+<p>Start with the digest and one agent, not all eleven. Put approval gates everywhere first and remove them selectively later. Budget real time for testing against live traffic — half our fixes came from real data, not planning. And treat brand assets as code, not as something to hope the AI renders correctly.</p>
+<p>Want the same architecture mapped onto your business? <a href="/contact/">Book a free scoping call</a> or explore <a href="/services/ai-agent-development/">AI Agent Development</a>.</p>
+</div></section>
+<section class="cta-band"><div class="container cta-inner">
+<div><h2>Get this architecture for your business</h2><p>Book a free 30-minute scoping call. We map your processes, tell you honestly what is worth automating, and give you a fixed quote. No obligation.</p></div>
+<a class="btn btn-light" href="/contact/">Book a Free Scoping Call</a>
+</div></section>
+</main>
+<footer class="site-footer">
+<div class="container footer-grid">
+<div>
+<a class="brand" href="/"><svg class="logo" width="128" height="28" viewBox="0 0 128 28" role="img" aria-label="Avokara logo"><text x="0" y="21" font-family="Poppins,Arial,sans-serif" font-weight="800" font-size="21" fill="#101828">Avokara</text><circle cx="97" cy="20" r="3.2" fill="#E5352E"/></svg></a>
+<p>Avokara Private Limited builds AI agents and business automation for small and mid-sized companies. Based in India, working with clients remotely.</p>
+<p><a href="mailto:hello@avokaraai.com">hello@avokaraai.com</a></p>
+</div>
+<nav aria-label="Services"><h2 class="footer-h">Services</h2><ul>
+<li><a href="/services/ai-agent-development/">AI Agent Development</a></li>
+<li><a href="/services/sales-lead-automation/">Sales &amp; Lead Automation</a></li>
+<li><a href="/services/customer-support-automation/">Support Automation</a></li>
+<li><a href="/services/finance-operations-automation/">Finance &amp; Ops Automation</a></li>
+<li><a href="/services/marketing-content-automation/">Marketing Automation</a></li>
+<li><a href="/services/workflow-automation-n8n/">n8n Workflow Automation</a></li>
+</ul></nav>
+<nav aria-label="Company"><h2 class="footer-h">Company</h2><ul>
+<li><a href="/about/">About</a></li>
+<li><a href="/case-studies/">Case Studies</a></li>
+<li><a href="/pricing/">Pricing</a></li>
+<li><a href="/blog/">Blog</a></li>
+<li><a href="/faq/">FAQ</a></li>
+<li><a href="/contact/">Contact</a></li>
+</ul></nav>
+<nav aria-label="Legal"><h2 class="footer-h">Legal</h2><ul>
+<li><a href="/privacy-policy/">Privacy Policy</a></li>
+<li><a href="/terms/">Terms &amp; Conditions</a></li>
+</ul>
+<p class="muted small">Content last updated: 2026-08-02</p></nav>
+</div>
+<div class="container copyright"><p>&copy; 2026 Avokara Private Limited. All rights reserved.</p></div>
+</footer>
+</body>
+</html>
