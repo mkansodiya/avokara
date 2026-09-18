@@ -94,6 +94,36 @@ that is much more expensive than the sentence was worth.
 /assets/styles.css                  The entire design system — single stylesheet
 ```
 
+## Cache busting — read this before editing assets
+
+GitHub Pages sends `Cache-Control: max-age=14400` (4 hours) for everything
+under `/assets/`, but only `max-age=600` (10 minutes) for HTML, and Pages does
+not let you configure headers. So after a deploy a returning visitor gets the
+**new HTML with a four-hour-old stylesheet** — and because the markup is built
+almost entirely from CSS component classes, the page renders as unstyled
+blocks. This happened once already.
+
+The only fix is to change the URL when the file changes. Both cache-sensitive
+assets are therefore referenced with a content-hash query:
+
+```
+href="/assets/styles.css?v=d14e3f3a"
+content="https://www.avokaraai.com/assets/og-image.png?v=27df59fd"
+```
+
+**After editing `assets/styles.css` or `assets/og-image.png`, re-stamp the
+version across all pages** — get the new hash with:
+
+```bash
+sha256sum assets/styles.css | cut -c1-8
+```
+
+then find-and-replace the old `?v=` value with the new one across every
+`*.html`. Forgetting this means your change silently does not reach anyone who
+has visited before. (The OG hash matters separately: LinkedIn, WhatsApp and
+Slack cache preview images by URL, so an unchanged URL keeps showing the old
+card.)
+
 ## Design system
 
 `assets/styles.css` is the only stylesheet. Navy `#101828` / red `#e5352e` /
