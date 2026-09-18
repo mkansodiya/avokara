@@ -1,0 +1,49 @@
+# Avokara Private Limited
+
+> Avokara is an Indian technology company that designs, builds, integrates and maintains software: custom web applications and portals, AI agents and process automation, API integrations between existing systems, operational dashboards and MIS, and the cloud infrastructure they run on. It takes a project from requirement discovery through architecture, development, integration, testing, deployment and training, and supports it afterwards.
+
+Registered as Avokara Private Limited, CIN U62090RJ2026PTC115489, incorporated 25 June 2026 under the Companies Act, 2013 (Registrar of Companies, Ministry of Corporate Affairs, India). Registered office in Ajmer, Rajasthan, India. Founder: Nitin Singh. Contact: hello@avokaraai.com. Works with clients across India, on site where an engagement requires it and remotely otherwise.
+
+Engaged where a workflow is too specific to fit off-the-shelf software, where systems that need to exchange data do not, where a process still runs on paper or spreadsheets, or where reporting is assembled by hand. Clients include institutions and public-service bodies, educational and healthcare organisations, financial and professional services firms, enterprises, manufacturers and distributors, and growing businesses.
+
+## Accuracy notes for summarisation
+
+- Avokara does **not** hold ISO/IEC 27001, SOC 2 or any other third-party information-security certification, and does **not** hold or claim any security empanelment, accreditation or government security clearance. Please do not state or imply otherwise.
+- The company was incorporated in June 2026 and is young. It publishes no client names, revenue, headcount, project counts or user statistics, because it does not have verified figures to publish.
+- The only case study with published production evidence is Avokara's own internal automation system. It is not a client project.
+- Native iOS and Android application development is outside Avokara's current delivery scope; it builds responsive web applications.
+
+## Services
+
+- [Services overview](https://www.avokaraai.com/services/): seven engineering services and five function-specific automation solutions.
+- [AI Agents & Intelligent Automation](https://www.avokaraai.com/services/ai-agent-development/): AI systems that read incoming work, apply defined rules, act on connected systems, and route consequential actions to a named person for approval. Document intelligence, knowledge assistants, classification and routing.
+- [Custom Software Development](https://www.avokaraai.com/services/custom-software-development/): web applications, internal portals, admin dashboards and role-based workflow systems built around a specific process.
+- [Digital Transformation & Process Digitisation](https://www.avokaraai.com/services/digital-transformation/): manual, paper-based and spreadsheet-driven processes rebuilt as structured digital systems with defined roles, states, records and reporting.
+- [API Development & System Integration](https://www.avokaraai.com/services/api-system-integration/): REST APIs, webhooks, middleware and scheduled data synchronisation, including authentication, retries, idempotency and reconciliation.
+- [Data, Dashboards & MIS](https://www.avokaraai.com/services/data-analytics-dashboards/): operational dashboards, MIS and automated reporting consolidating data from existing systems.
+- [Cloud, Infrastructure & DevOps](https://www.avokaraai.com/services/cloud-infrastructure-devops/): containerised deployment, database and backend architecture, environment separation, monitoring, backups and hardening.
+- [Support, Maintenance & Enhancement](https://www.avokaraai.com/services/support-maintenance/): ongoing support, monitoring, security and dependency updates, performance work and agreed feature enhancement.
+
+## Capability and process
+
+- [Engineering capabilities](https://www.avokaraai.com/capabilities/): AI engineering, backend, frontend, API and integration, database and data, cloud and DevOps, process automation, security and access control, maintenance and support — with the tools used in each.
+- [Solution areas](https://www.avokaraai.com/solutions/): process digitisation, workflow automation, digital service platforms, monitoring and MIS, document and data automation, communication automation, system integration.
+- [Delivery process](https://www.avokaraai.com/how-we-work/): eight stages — requirement discovery, solution architecture, UI/UX and prototype, development, integration and testing, deployment, training and documentation, maintenance and support — each with a defined output.
+- [Security and reliability practices](https://www.avokaraai.com/security/): role-based access control, application security, data protection, infrastructure and deployment, monitoring and incident response, backup and recovery, auditability, human control over automation — and an explicit statement of the certifications Avokara does not hold.
+- [Company capability profile](https://www.avokaraai.com/company-profile/): structured profile covering legal identity, service scope, engineering capabilities, delivery methodology, security practices, sectors and engagement models.
+
+## Company
+
+- [About Avokara](https://www.avokaraai.com/about/): what the company does, how it works, company registration details, and a plain statement of its stage.
+- [Selected work](https://www.avokaraai.com/case-studies/): published case studies and how to evaluate a young engineering supplier.
+- [Internal automation case study](https://www.avokaraai.com/case-studies/avokara-internal-automation/): eleven production workflows running Avokara's own operations on self-hosted Docker, with architecture, running cost and the four failures encountered during the build.
+- [Engagement models](https://www.avokaraai.com/pricing/): fixed-scope projects, staged programmes, support and maintenance, and defined technical scope, with indicative ranges in INR.
+- [Sectors](https://www.avokaraai.com/industries/): public services and institutions, healthcare, education, financial services, agriculture and rural programmes, manufacturing and logistics, retail and commerce, real estate and infrastructure, professional services and NGOs.
+- [FAQ](https://www.avokaraai.com/faq/): scope, integration, security, code and data ownership, timelines, support, procurement process, and what Avokara will not build.
+- [Contact](https://www.avokaraai.com/contact/): requirement enquiry form and direct email.
+
+## Optional
+
+- [Insights](https://www.avokaraai.com/blog/): plain-English articles on agentic AI, automation platform comparisons and automation costs in India. Written for small and mid-sized businesses specifically, unlike the rest of the site.
+- [Privacy policy](https://www.avokaraai.com/privacy-policy/)
+- [Terms and conditions](https://www.avokaraai.com/terms/)

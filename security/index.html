@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+<meta name="facebook-domain-verification" content="b3rh8hk6jlsteno1h9l2tc3l2alcjd">
+<title>Security &amp;amp; Reliability Engineering Practices | Avokara</title>
+<meta name="description" content="Avokara's security practices: role-based access control, application security, data protection, monitoring, backups, audit logging — and what we do not claim.">
+<link rel="canonical" href="https://www.avokaraai.com/security/">
+<meta name="theme-color" content="#101828">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Avokara">
+<meta property="og:locale" content="en_IN">
+<meta property="og:title" content="Security &amp;amp; Reliability Engineering Practices | Avokara">
+<meta property="og:description" content="Avokara's security practices: role-based access control, application security, data protection, monitoring, backups, audit logging — and what we do not claim.">
+<meta property="og:url" content="https://www.avokaraai.com/security/">
+<meta property="og:image" content="https://www.avokaraai.com/assets/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Avokara — technology engineering company">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Security &amp;amp; Reliability Engineering Practices | Avokara">
+<meta name="twitter:description" content="Avokara's security practices: role-based access control, application security, data protection, monitoring, backups, audit logging — and what we do not claim.">
+<meta name="twitter:image" content="https://www.avokaraai.com/assets/og-image.png">
+<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&family=Inter:wght@400;500;600&display=swap" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&family=Inter:wght@400;500;600&display=swap"></noscript>
+<link rel="stylesheet" href="/assets/styles.css">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Organization", "@id": "https://www.avokaraai.com/#organization", "name": "Avokara Private Limited", "alternateName": "Avokara", "url": "https://www.avokaraai.com/", "logo": "https://www.avokaraai.com/assets/avokara-logo.png", "image": "https://www.avokaraai.com/assets/og-image.png", "email": "hello@avokaraai.com", "founder": {"@type": "Person", "name": "Nitin Singh"}, "legalName": "Avokara Private Limited", "foundingDate": "2026-06-25", "identifier": {"@type": "PropertyValue", "propertyID": "CIN", "value": "U62090RJ2026PTC115489"}, "description": "Avokara Private Limited is an Indian technology company that designs, builds, integrates and maintains custom software, AI systems, data and reporting platforms and process automation for institutions, enterprises and growing businesses.", "knowsAbout": ["Custom software development", "AI agent development", "Business process automation", "API development and system integration", "Data analytics and MIS dashboards", "Cloud infrastructure and DevOps", "Application maintenance and support", "Digital transformation"], "areaServed": {"@type": "Country", "name": "India"}, "contactPoint": {"@type": "ContactPoint", "contactType": "Project enquiries", "email": "hello@avokaraai.com", "areaServed": "IN", "availableLanguage": ["en", "hi"]}, "address": {"@type": "PostalAddress", "streetAddress": "C/o Chunni Lal Jat, Kansodiya Ki Dhani, Karkeri, Kishan Garh", "addressLocality": "Ajmer", "addressRegion": "Rajasthan", "postalCode": "305819", "addressCountry": "IN"}, "sameAs": ["https://www.facebook.com/avokaraai/"]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebPage", "url": "https://www.avokaraai.com/security/", "name": "Security &amp; Reliability Engineering Practices | Avokara", "description": "Avokara's security practices: role-based access control, application security, data protection, monitoring, backups, audit logging — and what we do not claim.", "isPartOf": {"@id": "https://www.avokaraai.com/#website"}, "dateModified": "2026-09-18", "inLanguage": "en"}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.avokaraai.com/"}, {"@type": "ListItem", "position": 2, "name": "Security & Reliability", "item": "https://www.avokaraai.com/security/"}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Can the system be hosted entirely on our own infrastructure?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Deployment is containerised, so the same build runs on infrastructure you control, in your own cloud account, or on infrastructure we manage. Where data must not leave your environment, that is a design input from the first stage rather than a change requested later."}}, {"@type": "Question", "name": "What data is sent to AI providers, and can that be limited?", "acceptedAnswer": {"@type": "Answer", "text": "Only the fields a given task requires, and only where an AI step is actually used — most of a typical system is ordinary deterministic software with no model involved. Which fields leave the system, to which provider, and for what purpose is documented during design and is a decision you make. Where no data may leave your environment, the design either avoids AI for that step or uses a model deployed inside it."}}, {"@type": "Question", "name": "Will you work to our security policy or complete our security questionnaire?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. We are happy to work to your organisation's security policy, complete a security questionnaire, accept configuration requirements such as network restrictions or specific hosting regions, and support a third-party review or penetration test of the delivered application."}}, {"@type": "Question", "name": "Who has access to our systems during and after the project?", "acceptedAnswer": {"@type": "Answer", "text": "Only the people working on the engagement, using individual credentials, with access removed at completion or handover. Where you would rather issue and control the credentials yourself, that is the better arrangement and we will work that way."}}, {"@type": "Question", "name": "How do you report a security issue to us, and how should we report one to you?", "acceptedAnswer": {"@type": "Answer", "text": "We raise anything we find to your named contact directly, with a written note of cause and fix. To report a suspected issue to us, email hello@avokaraai.com with enough detail to reproduce it; we will acknowledge and tell you what we are doing about it."}}], "description": "Avokara's security practices: role-based access control, application security, data protection, monitoring, backups, audit logging — and what we do not claim."}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "ItemList", "@id": "https://www.avokaraai.com/security/#practices", "name": "Security and reliability practices", "description": "Avokara applies security-conscious engineering practices across the application lifecycle. Avokara does not hold third-party information-security certifications such as ISO/IEC 27001 or SOC 2, and does not hold or claim any security empanelment, accreditation or government security clearance.", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Authentication & access control", "description": "Role-based access control, least-privilege defaults, hashed passwords, session management, record-level scoping."}, {"@type": "ListItem", "position": 2, "name": "Application security", "description": "Server-side validation, parameterised queries, output encoding, CSRF protection, upload restrictions, rate limiting."}, {"@type": "ListItem", "position": 3, "name": "Data protection", "description": "TLS in transit, secrets held outside source control, data minimisation, defined retention and deletion."}, {"@type": "ListItem", "position": 4, "name": "Infrastructure & deployment", "description": "Containerised builds, separated environments, reverse proxy with TLS, scheduled patching, documented rollback."}, {"@type": "ListItem", "position": 5, "name": "Monitoring & incident response", "description": "Uptime, error-rate and resource monitoring with alerting; central error handling; retained logs."}, {"@type": "ListItem", "position": 6, "name": "Backup & recovery", "description": "Scheduled automated backups stored separately from the running system, with restores tested."}, {"@type": "ListItem", "position": 7, "name": "Auditability & traceability", "description": "Audit logging of privileged and data-changing actions with actor, timestamp and outcome; exportable for audit."}, {"@type": "ListItem", "position": 8, "name": "Human control over automation", "description": "Consequential actions drafted by the system and confirmed by a named person; confidence thresholds on AI output."}]}</script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to main content</a>
+<header class="site-header">
+<div class="container nav-wrap">
+<a class="brand" href="/" aria-label="Avokara home"><svg class="logo" width="128" height="28" viewBox="0 0 128 28" role="img" aria-label="Avokara logo"><text x="0" y="21" font-family="Poppins,Arial,sans-serif" font-weight="800" font-size="21" fill="#101828">Avokara</text><circle cx="97" cy="20" r="3.2" fill="#E5352E"/></svg></a>
+<input type="checkbox" id="nav-toggle" class="nav-toggle" aria-hidden="true">
+<label for="nav-toggle" class="nav-btn" aria-label="Open menu"><span></span><span></span><span></span></label>
+<nav aria-label="Main navigation"><ul class="nav-list"><li><a href="/services/">Services</a></li><li><a href="/capabilities/">Capabilities</a></li><li><a href="/solutions/">Solutions</a></li><li><a href="/how-we-work/">How We Work</a></li><li><a href="/industries/">Industries</a></li><li><a href="/case-studies/">Work</a></li><li><a href="/about/">About</a></li><li><a class="btn btn-primary nav-cta" href="/contact/">Discuss a Requirement</a></li></ul></nav>
+</div>
+</header>
+<main id="main">
+<div class="container"><nav class="breadcrumbs" aria-label="Breadcrumb"><ol><li><a href="/">Home</a></li><li aria-current="page">Security &amp; Reliability</li></ol></nav></div>
+<section class="section"><div class="container">
+<div class="section-head">
+<span class="eyebrow">Security &amp; reliability</span>
+<h1>Security and reliability practices</h1>
+<p class="lead">Security and access control are decided during architecture and built into each module, rather than reviewed at the end. This page states the practices we actually follow &mdash; and, just as plainly, the certifications we do not hold.</p>
+</div>
+<div class="answer"><p>Avokara applies security-conscious engineering practices across the application lifecycle: role-based access control with least-privilege defaults, server-side validation, parameterised queries, encrypted secrets and TLS in transit, audit logging of privileged actions, environment separation, scheduled backups with tested restores, monitoring with alerting, and human confirmation before consequential automated actions.</p></div>
+</div></section>
+
+<section class="section section-soft"><div class="container">
+<div class="cap-grid"><article class="cap"><h3><span class="icon icon-navy" aria-hidden="true"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><rect x="4.8" y="10" width="14.4" height="10.2" rx="2.4"/><path d="M8.4 10V7.6a3.6 3.6 0 017.2 0V10"/><path d="M12 14v2.4"/></svg></span>Authentication &amp; access control</h3><p>Who can enter the system, and what each role is allowed to see and change.</p><ul><li>Role-based access control, with permissions defined per role rather than per person</li><li>Least-privilege defaults: a new role starts with no access and is granted what it needs</li><li>Passwords stored only as salted hashes; never recoverable, only resettable</li><li>Session expiry, invalidation on password change, and protection against session fixation</li><li>Optional second factor and IP or network restriction where a deployment requires it</li><li>Record-level scoping so a user sees only the records belonging to their unit or region</li></ul></article><article class="cap"><h3><span class="icon icon-navy" aria-hidden="true"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 3l7 2.9v5.6c0 4.2-2.9 7.7-7 9.5-4.1-1.8-7-5.3-7-9.5V5.9z"/><path d="M9.2 12.1l2.1 2.1 3.6-3.9"/></svg></span>Application security</h3><p>The defensive practices applied while the application is being written, not audited in afterwards.</p><ul><li>Server-side validation of every input, independent of client-side checks</li><li>Parameterised queries and an ORM layer to prevent SQL injection</li><li>Output encoding and content-security headers against cross-site scripting</li><li>CSRF protection on state-changing requests</li><li>File-upload restrictions by type, size and storage location, served without execution</li><li>Rate limiting on authentication and public endpoints</li><li>Errors logged internally, never returned to the user with stack traces or query detail</li></ul></article><article class="cap"><h3><span class="icon icon-navy" aria-hidden="true"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><ellipse cx="12" cy="6" rx="7" ry="2.9"/><path d="M5 6v12c0 1.6 3.1 2.9 7 2.9s7-1.3 7-2.9V6"/><path d="M5 12c0 1.6 3.1 2.9 7 2.9s7-1.3 7-2.9"/></svg></span>Data protection</h3><p>How data is handled at rest, in transit and at the point it leaves the system.</p><ul><li>TLS for all traffic, with certificates renewed automatically</li><li>Credentials and API keys held in environment or secret storage, never in source control</li><li>Field-level encryption for particularly sensitive values where a requirement calls for it</li><li>Data minimisation: integrations and AI processing receive only the fields the task needs</li><li>Defined retention periods and deletion procedures agreed during design</li><li>Exports and reports subject to the same role restrictions as the screens they come from</li></ul></article><article class="cap"><h3><span class="icon icon-navy" aria-hidden="true"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M7.6 18.5h9.2a3.6 3.6 0 00.2-7.2 5.2 5.2 0 00-9.9-1.4 3.9 3.9 0 00.5 8.6z"/><path d="M12 16v-4.4M10.2 13.4L12 11.6l1.8 1.8"/></svg></span>Infrastructure &amp; deployment</h3><p>The environment the application runs in, and how changes reach it.</p><ul><li>Containerised builds so the tested artefact is the deployed artefact</li><li>Development, staging and production kept separate; no testing against live data</li><li>Reverse proxy with TLS termination, security headers and request limits</li><li>Operating-system and dependency patching as scheduled maintenance</li><li>Administrative access restricted by key-based authentication</li><li>Documented rollback path for every release</li></ul></article><article class="cap"><h3><span class="icon icon-navy" aria-hidden="true"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M4 16.5a8 8 0 1116 0"/><path d="M12 16.5l3.6-4.6"/><circle cx="12" cy="16.5" r="1.3"/></svg></span>Monitoring &amp; incident response</h3><p>How a failure is detected, and what happens next.</p><ul><li>Uptime, error-rate and resource monitoring with alerting to a named channel</li><li>Central error handling that raises an alert rather than failing silently</li><li>Structured application logs retained for investigation</li><li>A defined route for reporting a suspected security issue</li><li>Post-incident note recording cause, fix and prevention</li></ul></article><article class="cap"><h3><span class="icon icon-navy" aria-hidden="true"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 3l8.2 4.4L12 11.8 3.8 7.4z"/><path d="M3.8 12.2L12 16.6l8.2-4.4"/><path d="M3.8 16.6L12 21l8.2-4.4"/></svg></span>Backup &amp; recovery</h3><p>What happens if data is lost or an environment fails.</p><ul><li>Scheduled automated database backups, retained to an agreed schedule</li><li>Backups stored separately from the running system</li><li>Restores tested, not assumed to work</li><li>Recovery expectations agreed in writing during architecture rather than after an incident</li></ul></article><article class="cap"><h3><span class="icon icon-navy" aria-hidden="true"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M14 3H7a2 2 0 00-2 2v14a2 2 0 002 2h10a2 2 0 002-2V8z"/><path d="M14 3v5h5"/><path d="M9 13.5h6M9 17h4"/></svg></span>Auditability &amp; traceability</h3><p>Being able to reconstruct what happened, months later.</p><ul><li>Audit log of privileged and data-changing actions with actor, timestamp and outcome</li><li>Immutable status history on records that move through a workflow</li><li>Approval records showing who approved what, when and on what version</li><li>Integration and delivery logs for messages and external calls</li><li>Logs designed to be exportable for an internal or external audit</li></ul></article><article class="cap"><h3><span class="icon icon-navy" aria-hidden="true"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><circle cx="9.2" cy="8" r="3"/><path d="M3.6 19.2c0-3.1 2.5-5.2 5.6-5.2s5.6 2.1 5.6 5.2"/><path d="M16.2 6.3a3 3 0 010 5.6M17.6 14.6c2 .8 3 2.4 3 4.6"/></svg></span>Human control over automation</h3><p>Where a person has to confirm before software acts.</p><ul><li>Consequential actions drafted by the system and confirmed by a named person</li><li>Confidence thresholds on AI output, with low-confidence cases routed to review</li><li>Automated actions written back to state so nothing is repeated</li><li>Controls removed deliberately and per workflow once you are confident, never by default</li><li>A documented list of actions the system is not permitted to take unattended</li></ul></article></div>
+</div></section>
+
+<section class="section"><div class="container narrow prose">
+<h2>Certifications, audits and what we do not claim</h2>
+<div class="note"><p>Avokara does not currently hold third-party information-security certifications such as ISO/IEC 27001 or SOC 2, and does not hold or claim any security empanelment, accreditation or government security clearance. We state this directly because discovering it later wastes your time.</p></div>
+<p>What this means in practice:</p>
+<ul>
+<li><strong>The practices on this page are engineering practices,</strong> described so you can assess them and hold us to them &mdash; not an audited compliance claim.</li>
+<li><strong>Where a requirement calls for certified testing or attestation</strong> &mdash; an independent penetration test, a security audit, a compliance sign-off &mdash; we say so during scoping and work alongside an accredited third party. The application is built so that such a review is possible: documented architecture, documented access-control model, exportable logs.</li>
+<li><strong>Where a requirement calls for a certification we do not hold,</strong> we will tell you that rather than let it surface during evaluation.</li>
+<li><strong>We will not represent a certification, registration, empanelment or approval that Avokara has not actually obtained,</strong> in a proposal, on this website, or anywhere else.</li>
+</ul>
+<h2>Reliability, in the ordinary sense</h2>
+<p>Most of what makes a system reliable is unglamorous and is decided before any code is written:</p>
+<ul>
+<li><strong>Failures are loud.</strong> A central error handler raises an alert. A process that fails quietly is worse than one that fails visibly, because nobody investigates it.</li>
+<li><strong>Actions are idempotent where they can be.</strong> A retried operation does not send a message twice or create a duplicate record. State is written back before an action is taken, not after.</li>
+<li><strong>External systems are assumed to be unavailable sometimes.</strong> Integrations retry with backoff, queue rather than drop, and surface a reconciliation view when the other side has been down.</li>
+<li><strong>Restores are tested.</strong> An untested backup is a hope, not a control.</li>
+<li><strong>Nothing important depends on one person remembering.</strong> Deployment is scripted, decisions are written down, and documentation is a deliverable.</li>
+</ul>
+<h2>Related</h2>
+<ul>
+<li><a href="/how-we-work/">Delivery process</a> &mdash; where security and access-control decisions are made in a project</li>
+<li><a href="/capabilities/">Engineering capabilities</a> &mdash; the security and access-control capability in context</li>
+<li><a href="/privacy-policy/">Privacy policy</a> &mdash; how this website and our own operations handle personal data</li>
+</ul>
+</div></section>
+
+<section class='section'><div class='container narrow'><h2>Security questions</h2><details class='faq'><summary>Can the system be hosted entirely on our own infrastructure?</summary><div class='faq-a'><p>Yes. Deployment is containerised, so the same build runs on infrastructure you control, in your own cloud account, or on infrastructure we manage. Where data must not leave your environment, that is a design input from the first stage rather than a change requested later.</p></div></details><details class='faq'><summary>What data is sent to AI providers, and can that be limited?</summary><div class='faq-a'><p>Only the fields a given task requires, and only where an AI step is actually used — most of a typical system is ordinary deterministic software with no model involved. Which fields leave the system, to which provider, and for what purpose is documented during design and is a decision you make. Where no data may leave your environment, the design either avoids AI for that step or uses a model deployed inside it.</p></div></details><details class='faq'><summary>Will you work to our security policy or complete our security questionnaire?</summary><div class='faq-a'><p>Yes. We are happy to work to your organisation's security policy, complete a security questionnaire, accept configuration requirements such as network restrictions or specific hosting regions, and support a third-party review or penetration test of the delivered application.</p></div></details><details class='faq'><summary>Who has access to our systems during and after the project?</summary><div class='faq-a'><p>Only the people working on the engagement, using individual credentials, with access removed at completion or handover. Where you would rather issue and control the credentials yourself, that is the better arrangement and we will work that way.</p></div></details><details class='faq'><summary>How do you report a security issue to us, and how should we report one to you?</summary><div class='faq-a'><p>We raise anything we find to your named contact directly, with a written note of cause and fix. To report a suspected issue to us, email <a href='mailto:hello@avokaraai.com'>hello@avokaraai.com</a> with enough detail to reproduce it; we will acknowledge and tell you what we are doing about it.</p></div></details></div></section>
+<section class="cta-band"><div class="container cta-inner">
+<div><h2>Have a security policy or questionnaire we should work to?</h2><p>Send it with your requirement. We will answer it as written, and tell you plainly which items we meet, which need a third party, and which we do not meet.</p></div>
+<a class="btn btn-light" href="/contact/">Discuss a Requirement</a>
+</div></section>
+</main>
+<footer class="site-footer">
+<div class="container footer-grid">
+<div>
+<a class="brand" href="/"><svg class="logo" width="128" height="28" viewBox="0 0 128 28" role="img" aria-label="Avokara logo"><text x="0" y="21" font-family="Poppins,Arial,sans-serif" font-weight="800" font-size="21" fill="#101828">Avokara</text><circle cx="97" cy="20" r="3.2" fill="#E5352E"/></svg></a>
+<p>Avokara Private Limited designs, builds, integrates and maintains custom software, AI systems and process automation for institutions, enterprises and growing businesses.</p>
+<p><a href="mailto:hello@avokaraai.com">hello@avokaraai.com</a></p>
+<p><a href="https://www.facebook.com/avokaraai/" rel="noopener">Facebook</a></p>
+<p class="muted small">Avokara Private Limited &middot; CIN U62090RJ2026PTC115489<br>Incorporated 25 June 2026 under the Companies Act, 2013<br>Registered Office: C/o Chunni Lal Jat, Kansodiya Ki Dhani, Karkeri, Kishan Garh, Ajmer &ndash; 305819, Rajasthan, India</p>
+</div>
+<nav aria-label="Services"><h2 class="footer-h">Services</h2><ul>
+<li><a href="/services/ai-agent-development/">AI Agents &amp; Automation</a></li>
+<li><a href="/services/custom-software-development/">Custom Software Development</a></li>
+<li><a href="/services/digital-transformation/">Digital Transformation</a></li>
+<li><a href="/services/api-system-integration/">API &amp; System Integration</a></li>
+<li><a href="/services/data-analytics-dashboards/">Data, Dashboards &amp; MIS</a></li>
+<li><a href="/services/cloud-infrastructure-devops/">Cloud &amp; DevOps</a></li>
+<li><a href="/services/support-maintenance/">Support &amp; Maintenance</a></li>
+<li><a href="/services/">All services</a></li>
+</ul></nav>
+<nav aria-label="Capability"><h2 class="footer-h">Capability</h2><ul>
+<li><a href="/capabilities/">Engineering Capabilities</a></li>
+<li><a href="/solutions/">Solution Areas</a></li>
+<li><a href="/how-we-work/">Delivery Process</a></li>
+<li><a href="/security/">Security &amp; Reliability</a></li>
+<li><a href="/company-profile/">Company Capability Profile</a></li>
+<li><a href="/industries/">Sectors We Work In</a></li>
+</ul></nav>
+<nav aria-label="Company"><h2 class="footer-h">Company</h2><ul>
+<li><a href="/about/">About Avokara</a></li>
+<li><a href="/case-studies/">Selected Work</a></li>
+<li><a href="/pricing/">Engagement Models</a></li>
+<li><a href="/blog/">Insights</a></li>
+<li><a href="/faq/">FAQ</a></li>
+<li><a href="/contact/">Contact</a></li>
+</ul>
+<p class="muted small">Content last reviewed: 2026-09-18</p></nav>
+</div>
+<div class="container copyright"><p>&copy; 2026 Avokara Private Limited. All rights reserved. &middot; <a href="/privacy-policy/">Privacy Policy</a> &middot; <a href="/terms/">Terms &amp; Conditions</a></p></div>
+</footer>
+</body>
+</html>
